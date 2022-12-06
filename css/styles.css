@@ -84,6 +84,9 @@ body {
 .header-contact {
   text-decoration: none;
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 .nav-list a:hover,
 .nav-list a:focus,
@@ -104,9 +107,14 @@ body {
   font-style: normal;
   display: block;
   text-align: center;
-  width: 696px;
-  height: 120px;
-  margin: 101px auto 30px;
+  margin: 106px 252px 0;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 .order-button {
   background-color: var(--interaction-color);
@@ -120,8 +128,7 @@ body {
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  margin-left: 499px;
-  margin-bottom: 111px;
+  margin-bottom: 106px;
 }
 .article-flex-container {
   display: flex;
@@ -271,6 +278,7 @@ body {
   flex-direction: column;
   gap: 20px;
   padding: 60px 0;
+  flex: 1 0 50%;
 }
 .container-footer .logo {
   padding: 0;
@@ -282,7 +290,13 @@ body {
   font-size: 14px;
   display: flex;
   flex-direction: column;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   gap: 9px;
+  /* flex-basis: 100px;
+  flex-grow: 0;
+  flex-shrink: 0; */
+  margin-right: auto;
 }
 .contact-footer-underlined {
   color: var(--transparent-white);
