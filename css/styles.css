@@ -278,7 +278,6 @@ body {
   flex-direction: column;
   gap: 20px;
   padding: 60px 0;
-  flex: 1 0 50%;
 }
 .container-footer .logo {
   padding: 0;
@@ -293,10 +292,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   gap: 9px;
-  /* flex-basis: 100px;
-  flex-grow: 0;
-  flex-shrink: 0; */
-  margin-right: auto;
+}
+.container-footer a {
+  width: fit-content;
 }
 .contact-footer-underlined {
   color: var(--transparent-white);
