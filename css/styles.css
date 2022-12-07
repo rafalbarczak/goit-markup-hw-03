@@ -37,18 +37,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--light-grey-border);
+  
 }
 .flex-inner-nav {
   display: flex;
   align-items: center;
   gap: 93px;
-  padding-right: 294px;
 }
 .nav-list {
   list-style: none;
   display: flex;
-  gap: 45.95px;
+  gap: 46px;
 }
 .nav-list a {
   text-decoration: none;
@@ -61,7 +60,6 @@ body {
 .header-contact-container {
   display: flex;
   gap: 50px;
-  justify-content: flex-end;
 }
 .logo {
   text-decoration: none;
@@ -73,7 +71,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--interaction-color);
   margin-left: 15px;
-  padding: 25px 0 23px;
 }
 .logo-black {
   color: var(--black);
@@ -169,6 +166,10 @@ body {
   padding-right: 15px;
   padding-top: 50px;
   gap: 30px;
+}
+.header-wrapper {
+  border-bottom: 1px solid var(--light-grey-border);
+  padding: 24px 0 25px;
 }
 .dark-background {
   background-color: var(--brand-gray);
@@ -281,7 +282,7 @@ body {
 }
 .container-footer .logo {
   padding: 0;
-  margin: 0;
+  margin: 0;``
 }
 .container-footer address {
   color: var(--white);
